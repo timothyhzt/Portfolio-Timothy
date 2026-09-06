@@ -1,4 +1,3 @@
-/*
 function Reflection() {
   return (
     <section className="reflection" id="reflection" aria-label="Reflection">
@@ -9,4 +8,3 @@ function Reflection() {
 }
 
 export default Reflection;
-*/

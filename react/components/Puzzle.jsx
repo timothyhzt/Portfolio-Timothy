@@ -1,4 +1,3 @@
-/*
 const pieces = [
   { name: 'Lessons', className: 'puzzle-piece-top-left', image: 'puzzle_piece-top left v2.png', target: '#lessons' },
   { name: 'Reflection', className: 'puzzle-piece-top-right', image: 'puzzle_piece-top right v2.png', target: '#reflection' },
@@ -22,4 +21,3 @@ function Puzzle() {
 }
 
 export default Puzzle;
-*/

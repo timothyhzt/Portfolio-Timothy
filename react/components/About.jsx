@@ -1,4 +1,3 @@
-/*
 import Puzzle from './Puzzle.jsx';
 
 function About() {
@@ -20,4 +19,3 @@ function About() {
 }
 
 export default About;
-*/

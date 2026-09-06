@@ -1,4 +1,3 @@
-/*
 function Footer() {
   return (
     <footer className="site-footer" id="footer">
@@ -24,4 +23,3 @@ function Footer() {
 }
 
 export default Footer;
-*/

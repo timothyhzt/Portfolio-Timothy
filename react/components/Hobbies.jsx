@@ -1,4 +1,3 @@
-/*
 import { useState } from 'react';
 import VideoModal from './VideoModal';
 
@@ -39,7 +38,7 @@ function Hobbies() {
 
           <article className="hobby-card hobby-card-tennis">
             <div className="hobby-media hobby-media-tennis">
-              <img src="assets/Tennis.JPG" alt="Tennis action shot" />
+              <img src="assets/Tennisv3.JPG" alt="Tennis action shot" />
             </div>
             <div className="hobby-copy">
               <span className="project-label">03 / Active time</span>
@@ -54,4 +53,3 @@ function Hobbies() {
 }
 
 export default Hobbies;
-*/

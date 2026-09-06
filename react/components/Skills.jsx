@@ -1,4 +1,3 @@
-/*
 const skills = [
   ['HTML', 'Building clear page structure.'],
   ['CSS', 'Creating thoughtful visual systems.'],
@@ -41,4 +40,3 @@ function Skills() {
 }
 
 export default Skills;
-*/

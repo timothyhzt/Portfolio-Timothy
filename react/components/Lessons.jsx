@@ -1,4 +1,3 @@
-/*
 const lessons = [
   {
     label: 'A project that failed to meet my personal standards',
@@ -83,4 +82,3 @@ function Lessons() {
 }
 
 export default Lessons;
-*/

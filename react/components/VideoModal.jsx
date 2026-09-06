@@ -1,4 +1,3 @@
-/*
 function VideoModal({ isOpen, onClose, videoTitle, videoUrl }) {
   if (!isOpen) return null;
 
@@ -40,4 +39,3 @@ function VideoModal({ isOpen, onClose, videoTitle, videoUrl }) {
 }
 
 export default VideoModal;
-*/

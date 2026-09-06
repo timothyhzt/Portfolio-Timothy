@@ -40,7 +40,7 @@ h2, blockquote {
 	line-height: .96;
 }
 
-.site-header {
+.site-navbar {
 	max-width: var(--max-width);
 	margin: 0 auto;
 	padding-left: 40px;
@@ -105,7 +105,7 @@ h2, blockquote {
 }
 
 @media (max-width: 720px) {
-	.site-header, .page-section, .site-footer {
+	.site-navbar, .page-section, .site-footer {
 		padding-left: 22px;
 		padding-right: 22px;
 	}

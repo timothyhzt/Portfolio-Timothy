@@ -1,4 +1,3 @@
-/*
 function Projects() {
   return (
     <section className="projects page-section section-line" id="projects" aria-labelledby="projects-title">
@@ -49,4 +48,3 @@ function Projects() {
 }
 
 export default Projects;
-*/
