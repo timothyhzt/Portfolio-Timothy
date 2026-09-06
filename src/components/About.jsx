@@ -6,10 +6,9 @@ function About() {
       <div className="section-content">
         <Puzzle />
         <div className="about-intro">
-          <h2 id="about-title">A little about<br /><em>the person behind<br />the code.</em></h2>
+          <h2 id="about-title">Pieces of my story<br /><em>the person behind<br />the code.</em></h2>
           <div className="section-copy">
-            <p className="lead">Hi, I’m Timothy. I’m a student exploring how design, technology, and clear communication can come together on the web.</p>
-            <p>I’m interested in the stories behind a project, the details that make a page feel personal, and the process of learning by making.</p>
+            <p className="lead">Hey there, I’m Timothy, an aspiring React frontend engineer looking to enter into the HCI industry and Frontend Development. By combining my technical skills with human psychology, I hope to bridge the gap between AI and humans and build projects that allow for the existence of the best of both worlds. Forging the path to my dreams, One line of code at a time.</p>
             <a className="text-link" href="#lessons">See what I’m learning <span aria-hidden="true">→</span></a>
           </div>
         </div>
