@@ -9,10 +9,10 @@ function Footer() {
         <p className="footer-message">Have a question, idea, or project in mind? I’d love to hear from you.</p>
       </div>
       <div className="footer-details">
-        <a className="button button-light" href="mailto:hello@example.com">Say hello <span aria-hidden="true">↗</span></a>
+        <a className="button button-light" href="mailto:timothytu0807@gmail.com">Say hello <span aria-hidden="true">↗</span></a>
         <div className="contact-list" aria-label="Contact information">
-          <a href="mailto:hello@example.com"><span>Email</span>hello@example.com</a>
-          <a href="tel:+10000000000"><span>Phone</span>+1 000 000 0000</a>
+          <a href="mailto:timothytu0807@gmail.com"><span>Email</span>timothytu0807@gmail.com</a>
+          <a href="tel:+10000000000"><span>Phone</span>+1 480 621 2531</a>
           <a href="https://github.com/timothyhzt" target="_blank" rel="noreferrer"><span className="social-icon social-icon--github" aria-hidden="true">GH</span><span className="contact-label"><span>GitHub</span>/timothyhzt <span aria-hidden="true">↗</span></span></a>
           <a href="https://www.linkedin.com/in/timothy-tu" target="_blank" rel="noreferrer"><span className="social-icon social-icon--linkedin" aria-hidden="true">in</span><span className="contact-label"><span>LinkedIn</span>/timothy-tu <span aria-hidden="true">↗</span></span></a>
           <a href="https://www.instagram.com/timothyhzt" target="_blank" rel="noreferrer"><span className="social-icon social-icon--instagram" aria-hidden="true">◎</span><span className="contact-label"><span>Instagram</span>@timothyhzt <span aria-hidden="true">↗</span></span></a>
