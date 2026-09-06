@@ -1,8 +1,10 @@
+import logo from '../assets/TimLogo.png';
+
 function Navbar() {
   return (
     <nav className="site-navbar" aria-label="Main navigation">
       <a className="navbar-logo" href="#top" aria-label="Timothy Tu home">
-        <img src="/assets/TimLogo.png" alt="" />
+        <img src={logo} alt="" />
         <span>Timothy Tu</span>
       </a>
       <div className="site-nav">

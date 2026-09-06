@@ -1,9 +1,7 @@
-import { useState } from 'react';
-import VideoModal from './VideoModal';
+import clashRoyaleImage from '../assets/Clashroyale.png';
+import tennisImage from '../assets/Tennisv3.JPG';
 
 function Hobbies() {
-  const [isVideoOpen, setIsVideoOpen] = useState(false);
-
   return (
     <section className="hobbies page-section section-line" id="hobbies" aria-labelledby="hobbies-title">
       <div className="section-content">
@@ -26,7 +24,7 @@ function Hobbies() {
 
           <article className="hobby-card hobby-card-game">
             <div className="hobby-media hobby-media-game">
-              <img src="assets/Clashroyale.png" alt="Clash Royale game artwork" />
+              <img src={clashRoyaleImage} alt="Clash Royale game artwork" />
             </div>
             <div className="hobby-copy">
               <span className="project-label">02 / Weekend hobby</span>
@@ -38,7 +36,7 @@ function Hobbies() {
 
           <article className="hobby-card hobby-card-tennis">
             <div className="hobby-media hobby-media-tennis">
-              <img src="assets/Tennisv3.JPG" alt="Tennis action shot" />
+              <img src={tennisImage} alt="Tennis action shot" />
             </div>
             <div className="hobby-copy">
               <span className="project-label">03 / Active time</span>

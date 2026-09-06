@@ -38,7 +38,7 @@ function Projects() {
             <div className="project-card-content">
               <span className="project-label">03 / Current work</span>
               <h3>Work in<br /><em>progress.</em></h3>
-              <p>This space is ready for the project I'm actively building, with room for the final title, summary, and visual details later.</p>
+              <p>This space is ready for the project I&apos;m actively building, with room for the final title, summary, and visual details later.</p>
             </div>
           </article>
         </div>

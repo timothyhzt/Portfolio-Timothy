@@ -1,3 +1,10 @@
+import thesisPdf from '../assets/thesis/Senior Thesis - Technology the Key to a Virtuous Life.pdf';
+import sunhacks1 from '../assets/sunhacks photos/sunhacks1.png';
+import sunhacks2 from '../assets/sunhacks photos/Sunhacks2.png';
+import sunhacks3 from '../assets/sunhacks photos/Sunhacks3.png';
+import sunhacks4 from '../assets/sunhacks photos/Sunhacks4.jpeg';
+import sunhacks5 from '../assets/sunhacks photos/Sunhacks5.jpeg';
+
 const lessons = [
   {
     label: 'A project that failed to meet my personal standards',
@@ -41,7 +48,7 @@ function Lessons() {
                       <strong>Senior Thesis</strong>
                       <span>Technology the Key to a Virtuous Life</span>
                     </div>
-                    <a className="thesis-preview-link" href="assets/thesis/Senior Thesis - Technology the Key to a Virtuous Life.pdf" target="_blank" rel="noreferrer">Open in new tab</a>
+                    <a className="thesis-preview-link" href={thesisPdf} target="_blank" rel="noreferrer">Open in new tab</a>
                   </div>
                 </div>
               )}
@@ -49,20 +56,20 @@ function Lessons() {
               {showPhotos && (
                 <>
                   <div className="sunhacks-gallery" aria-label="Sunhacks event photos">
-                    <figure className="sunhacks-photo" data-image="assets/sunhacks photos/sunhacks1.png" tabIndex="0" role="button" aria-label="Open Sunhacks team photo">
-                      <img src="assets/sunhacks photos/sunhacks1.png" alt="Sunhacks team photo with participants standing together" />
+                    <figure className="sunhacks-photo" data-image={sunhacks1} tabIndex="0" role="button" aria-label="Open Sunhacks team photo">
+                      <img src={sunhacks1} alt="Sunhacks team photo with participants standing together" />
                     </figure>
-                    <figure className="sunhacks-photo" data-image="assets/sunhacks photos/Sunhacks2.png" tabIndex="0" role="button" aria-label="Open Sunhacks group shot">
-                      <img src="assets/sunhacks photos/Sunhacks2.png" alt="Sunhacks group shot in the event space" />
+                    <figure className="sunhacks-photo" data-image={sunhacks2} tabIndex="0" role="button" aria-label="Open Sunhacks group shot">
+                      <img src={sunhacks2} alt="Sunhacks group shot in the event space" />
                     </figure>
-                    <figure className="sunhacks-photo" data-image="assets/sunhacks photos/Sunhacks3.png" tabIndex="0" role="button" aria-label="Open Sunhacks project table photo">
-                      <img src="assets/sunhacks photos/Sunhacks3.png" alt="Sunhacks table setup and project work" />
+                    <figure className="sunhacks-photo" data-image={sunhacks3} tabIndex="0" role="button" aria-label="Open Sunhacks project table photo">
+                      <img src={sunhacks3} alt="Sunhacks table setup and project work" />
                     </figure>
-                    <figure className="sunhacks-photo" data-image="assets/sunhacks photos/Sunhacks4.jpeg" tabIndex="0" role="button" aria-label="Open Sunhacks team portrait">
-                      <img src="assets/sunhacks photos/Sunhacks4.jpeg" alt="Sunhacks team posing for a photo during the event" />
+                    <figure className="sunhacks-photo" data-image={sunhacks4} tabIndex="0" role="button" aria-label="Open Sunhacks team portrait">
+                      <img src={sunhacks4} alt="Sunhacks team posing for a photo during the event" />
                     </figure>
-                    <figure className="sunhacks-photo" data-image="assets/sunhacks photos/Sunhacks5.jpeg" tabIndex="0" role="button" aria-label="Open Sunhacks collaboration photo">
-                      <img src="assets/sunhacks photos/Sunhacks5.jpeg" alt="Sunhacks collaboration moment after building together" />
+                    <figure className="sunhacks-photo" data-image={sunhacks5} tabIndex="0" role="button" aria-label="Open Sunhacks collaboration photo">
+                      <img src={sunhacks5} alt="Sunhacks collaboration moment after building together" />
                     </figure>
                   </div>
                   <div className="lightbox" aria-hidden="true">

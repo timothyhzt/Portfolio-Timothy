@@ -1,3 +1,5 @@
+import PropTypes from 'prop-types';
+
 function VideoModal({ isOpen, onClose, videoTitle, videoUrl }) {
   if (!isOpen) return null;
 
@@ -37,5 +39,12 @@ function VideoModal({ isOpen, onClose, videoTitle, videoUrl }) {
     </div>
   );
 }
+
+VideoModal.propTypes = {
+  isOpen: PropTypes.bool.isRequired,
+  onClose: PropTypes.func.isRequired,
+  videoTitle: PropTypes.string.isRequired,
+  videoUrl: PropTypes.string.isRequired,
+};
 
 export default VideoModal;
