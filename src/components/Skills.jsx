@@ -2,7 +2,6 @@ const skills = [
   ['HTML', 'Building clear page structure.'],
   ['CSS', 'Creating thoughtful visual systems.'],
   ['JavaScript', 'Adding useful interaction.'],
-  ['React', 'Building interactive user interfaces.'],
   ['React/TypeScript', 'Building interactive user interfaces.'],
   ['Python', 'Learning versatile programming foundations.']
 ];
