@@ -1,4 +1,4 @@
-import logo from '../assets/TimLogo.png';
+import logo from '../../assets/TimLogo.png';
 
 function Navbar() {
   return (

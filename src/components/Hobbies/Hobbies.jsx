@@ -1,5 +1,5 @@
-import clashRoyaleImage from '../assets/Clashroyale.png';
-import tennisImage from '../assets/Tennisv3.JPG';
+import clashRoyaleImage from '../../assets/Clashroyale.png';
+import tennisImage from '../../assets/Tennisv3.JPG';
 
 function Hobbies() {
   return (

@@ -1,4 +1,4 @@
-import resume from '../assets/Resume- Timothy Tu.pdf';
+import resume from '../../assets/Resume- Timothy Tu.pdf';
 
 function Footer() {
   return (

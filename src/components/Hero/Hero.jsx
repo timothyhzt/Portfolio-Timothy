@@ -1,4 +1,4 @@
-import heroPortrait from '../assets/hero v1 1.png';
+import heroPortrait from '../../assets/hero v1 1.png';
 
 function Hero() {
   return (

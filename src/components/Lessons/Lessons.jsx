@@ -1,9 +1,9 @@
-import thesisPdf from '../assets/thesis/Senior Thesis - Technology the Key to a Virtuous Life.pdf';
-import sunhacks1 from '../assets/sunhacks photos/sunhacks1.png';
-import sunhacks2 from '../assets/sunhacks photos/Sunhacks2.png';
-import sunhacks3 from '../assets/sunhacks photos/Sunhacks3.png';
-import sunhacks4 from '../assets/sunhacks photos/Sunhacks4.jpeg';
-import sunhacks5 from '../assets/sunhacks photos/Sunhacks5.jpeg';
+import thesisPdf from '../../assets/thesis/Senior Thesis - Technology the Key to a Virtuous Life.pdf';
+import sunhacks1 from '../../assets/sunhacks photos/sunhacks1.png';
+import sunhacks2 from '../../assets/sunhacks photos/Sunhacks2.png';
+import sunhacks3 from '../../assets/sunhacks photos/Sunhacks3.png';
+import sunhacks4 from '../../assets/sunhacks photos/Sunhacks4.jpeg';
+import sunhacks5 from '../../assets/sunhacks photos/Sunhacks5.jpeg';
 
 const lessons = [
   {
