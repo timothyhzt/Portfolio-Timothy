@@ -1,4 +1,4 @@
-import Puzzle from './Puzzle.jsx';
+import Puzzle from '../Puzzle/Puzzle.jsx';
 
 function About() {
   return (
