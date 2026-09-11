@@ -14,7 +14,7 @@ function Projects() {
             <div className="project-card-content">
               <span className="project-label">01 / Client Work</span>
               <h3>Friends Professional<br /><em>Portfolio.</em></h3>
-              <p>Built a smooth and polished portfolio for my friends on a 2 week deadline for her job applications. Learned basic React Functionalities and used Framer motion for all animations</p>
+              <p>Built a smooth and polished portfolio for my friends on a 2 week deadline for her job applications. Learned basic React Functionalities and used Framer motion for all animations. This was my first time building for someone else and I am extremely proud of what I was able to accomplish.</p>
               <a className="text-link" href="https://nataliewhipple.vercel.app/" target="_blank" rel="noreferrer">View the live portfolio <span aria-hidden="true">→</span></a>
             </div>
           </article>
@@ -38,7 +38,7 @@ function Projects() {
             <div className="project-card-content">
               <span className="project-label">03 / Current work</span>
               <h3>Project<br /><em>Redemption.</em></h3>
-              <p>Im actively working on this project and making good progress. The goal of the project is to create an app that creates personalized plan and schedule to help you achieve long-term goals. My goal is to further my understanding of Reac, Typescript and to learn to use Django and python for the backend and SQL for the database.</p>
+              <p>Im actively working on this project and making good progress. The goal of the project is to create an app that creates personalized plan and schedule to help you achieve long-term goals. My goal is to further my understanding of React, Typescript and to learn to use Django and python for the backend and SQL for the database.</p>
               <a className="text-link" href="https://github.com/timothyhzt/Project-Redemption" target="_blank" rel="noreferrer">View the Project<span aria-hidden="true">→</span></a>
             </div>
           </article>

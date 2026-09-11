@@ -18,7 +18,7 @@ function Hobbies() {
             <div className="hobby-copy">
               <span className="project-label">01 / Fun Project</span>
               <h3>Escape Parody<br /><em>Music Video.</em></h3>
-              <p>I worked with a group of friends to capture the experience we had while abroad in Milan, Italy. Here I worked on my editing skills, storytelling, and visual communication. I learned about the process of producing music from one of my friends and truly got to experience what Davinci Resolve had to offer.</p>
+              <p>I worked with a group of friends to capture the experience we had while studying abroad in Milan, Italy. Here I worked on my editing skills, storytelling, and visual communication. I learned about the process of producing music from one of my friends and truly got to experience what Davinci Resolve had to offer.</p>
             </div>
           </article>
 
@@ -41,7 +41,7 @@ function Hobbies() {
             <div className="hobby-copy">
               <span className="project-label">03 / Active time</span>
               <h3>Tennis<br /><em>Teaching &amp; Playing.</em></h3>
-              <p>I have been playing tennis for several years now and have been teaching clients of all ages from 3 to 80+ years old. Here I learn patience and adaptability as my teaching philosophy is centered around coaching in the way the student most understands.</p>
+              <p>I have been playing tennis for several years now and have been teaching clients of all ages from 3 to 80+ years old. Here I learn patience and adaptability as my teaching philosophy is centered around coaching in the way the student most understands. Working with people of different ages specifically children have taught me to keep an open mind and try creative solutions to help them learn.</p>
             </div>
           </article>
         </div>
