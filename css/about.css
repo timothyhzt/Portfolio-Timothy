@@ -205,13 +205,17 @@
         margin-left: 0;
     }
 
+    .puzzle-nav h2 {
+        padding: 0 clamp(6px, 2vw, 12px);
+    }
+
     .section-copy {
         margin-top: 35px;
     }
 
     .puzzle-nav .about-puzzle {
         width: min(86vw, 440px);
-        margin: 55px auto 0;
+        margin: 55px auto 72px;
     }
 
     .puzzle-label {
