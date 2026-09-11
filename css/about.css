@@ -73,7 +73,8 @@
 .puzzle-piece {
     position: absolute;
     display: block;
-    transition: filter 0.2s ease;
+    transition: filter 0.28s ease;
+    will-change: filter;
 }
 
 .puzzle-piece img {
@@ -102,6 +103,7 @@
     text-transform: uppercase;
     white-space: nowrap;
     pointer-events: none;
+    transition: background-color 0.28s ease, color 0.28s ease, box-shadow 0.28s ease;
 }
 
 .puzzle-piece-top-left .puzzle-label {
@@ -136,8 +138,14 @@
 
 .puzzle-piece:hover,
 .puzzle-piece:focus-visible {
-    z-index: 2;
-    filter: brightness(1.08);
+    filter: brightness(1.14) drop-shadow(0 8px 12px rgb(20 43 58 / 28%));
+}
+
+.puzzle-piece:hover .puzzle-label,
+.puzzle-piece:focus-visible .puzzle-label {
+    background: var(--blue);
+    color: var(--navy);
+    box-shadow: 0 4px 10px rgb(20 43 58 / 24%);
 }
 
 .puzzle-piece:focus-visible {
