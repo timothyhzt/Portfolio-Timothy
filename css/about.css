@@ -249,7 +249,7 @@
     .puzzle-nav .about-puzzle {
         align-self: center;
         justify-self: auto;
-        width: min(92vw, 440px);
+        width: min(calc(100vw - 44px), 440px);
         margin: 8px auto 24px;
     }
 

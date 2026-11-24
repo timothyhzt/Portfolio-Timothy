@@ -4,7 +4,7 @@ import gsap from 'gsap';
 
 const PuzzleTransitionContext = createContext(null);
 
-const routeComponents = new Set(['lessons', 'reflection', 'projects', 'hobbies', 'skills', 'contact']);
+const routeComponents = new Set(['background', 'passions', 'skills', 'process', 'projects', 'next']);
 
 const getRoute = () => {
   if (!window.location.hash.startsWith('#/')) return null;

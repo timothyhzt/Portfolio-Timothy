@@ -12,7 +12,7 @@ function About() {
           <div className="section-copy">
             <p className="lead">I’m Timothy, a frontend engineer drawn to thoughtful interfaces where technology, design, and human behavior meet.</p>
             <p>Explore the puzzle to discover the pieces that shape my work.</p>
-            <a className="text-link" href="#/lessons" onClick={(event) => { event.preventDefault(); navigate('lessons'); }}>Explore the puzzle <span aria-hidden="true">↓</span></a>
+            <a className="text-link" href="#/background" onClick={(event) => { event.preventDefault(); navigate('background'); }}>Explore the puzzle <span aria-hidden="true">↓</span></a>
           </div>
         </div>
         <Puzzle />

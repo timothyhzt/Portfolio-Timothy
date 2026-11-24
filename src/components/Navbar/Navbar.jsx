@@ -6,10 +6,10 @@ function Navbar() {
   const homeHref = route ? '#/' : '#top';
   const puzzleLinks = [
     ['About', '#about', 'about'],
-    ['Lessons', '#/lessons', 'lessons'],
+    ['Background', '#/background', 'background'],
+    ['Skills', '#/skills', 'skills'],
     ['Projects', '#/projects', 'projects'],
-    ['Hobbies', '#/hobbies', 'hobbies'],
-    ['Skills', '#/skills', 'skills']
+    ['Next', '#/next', 'next']
   ];
 
   return (
@@ -40,9 +40,9 @@ function Navbar() {
           </a>
         ))}
       </div>
-      <a className="navbar-link" href={route ? '#/contact' : '#footer'} onClick={(event) => {
+      <a className="navbar-link" href={route ? '#/next' : '#footer'} onClick={(event) => {
         event.preventDefault();
-        if (route) navigate('contact');
+        if (route) navigate('next');
         else document.querySelector('#footer')?.scrollIntoView({ behavior: 'smooth' });
       }}>
         Contact <span aria-hidden="true">↗</span>

@@ -6,10 +6,10 @@ import puzzleTopLeft from '../../assets/hero-puzzle-assets/puzzle_piece-top left
 import puzzleTopRight from '../../assets/hero-puzzle-assets/puzzle_piece-top right v2.png';
 
 export const puzzlePieces = [
-  { name: 'Lessons', id: 'lessons', className: 'puzzle-piece-top-left', image: puzzleTopLeft, titlePosition: { x: 32, y: 25 } },
-  { name: 'Reflection', id: 'reflection', className: 'puzzle-piece-top-right', image: puzzleTopRight, titlePosition: { x: 69, y: 24 } },
-  { name: 'Projects', id: 'projects', className: 'puzzle-piece-middle-left', image: puzzleMiddleLeft, titlePosition: { x: 31, y: 48 } },
-  { name: 'Hobbies', id: 'hobbies', className: 'puzzle-piece-middle-right', image: puzzleMiddleRight, titlePosition: { x: 69, y: 47 } },
-  { name: 'Skills', id: 'skills', className: 'puzzle-piece-bottom-left', image: puzzleBottomLeft, titlePosition: { x: 31, y: 76 } },
-  { name: 'Contact', id: 'contact', className: 'puzzle-piece-bottom-right', image: puzzleBottomRight, titlePosition: { x: 68, y: 75 } }
+  { name: 'Background', id: 'background', className: 'puzzle-piece-top-left', image: puzzleTopLeft, titlePosition: { x: 32, y: 25 } },
+  { name: 'Passions', id: 'passions', className: 'puzzle-piece-top-right', image: puzzleTopRight, titlePosition: { x: 69, y: 24 } },
+  { name: 'Skills', id: 'skills', className: 'puzzle-piece-middle-left', image: puzzleMiddleLeft, titlePosition: { x: 31, y: 48 } },
+  { name: 'Process', id: 'process', className: 'puzzle-piece-middle-right', image: puzzleMiddleRight, titlePosition: { x: 69, y: 47 } },
+  { name: 'Projects', id: 'projects', className: 'puzzle-piece-bottom-left', image: puzzleBottomLeft, titlePosition: { x: 31, y: 76 } },
+  { name: 'Next', id: 'next', className: 'puzzle-piece-bottom-right', image: puzzleBottomRight, titlePosition: { x: 68, y: 75 } }
 ];

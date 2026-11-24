@@ -1,12 +1,13 @@
 import Navbar from './components/Navbar/Navbar.jsx';
 import Hero from './components/Hero/Hero.jsx';
 import About from './components/About/About.jsx';
-import Lessons from './components/Lessons/Lessons.jsx';
-import Reflection from './components/Reflection/Reflection.jsx';
+import Background from './components/Background/Background.jsx';
+import Passions from './components/Passions/Passions.jsx';
+import Process from './components/Process/Process.jsx';
 import Projects from './components/Projects/Projects.jsx';
-import Hobbies from './components/Hobbies/Hobbies.jsx';
 import Skills from './components/Skills/Skills.jsx';
 import Footer from './components/Footer/Footer.jsx';
+import Next from './components/Next/Next.jsx';
 import { useRef } from 'react';
 import gsap from 'gsap';
 import { useGSAP } from '@gsap/react';
@@ -19,16 +20,16 @@ import DestinationPieceAnchor from './components/Transition/DestinationPieceAnch
 gsap.registerPlugin(useGSAP);
 
 const routeComponents = {
-  lessons: Lessons,
-  reflection: Reflection,
+  background: Background,
+  passions: Passions,
+  process: Process,
   projects: Projects,
-  hobbies: Hobbies,
   skills: Skills,
-  contact: Footer
+  next: Next
 };
 
 function AppContent() {
-  const { route, transition, startReverse } = usePuzzleTransition();
+  const { route } = usePuzzleTransition();
   const pageRef = useRef(null);
 
   useGSAP(() => {
@@ -55,18 +56,6 @@ function AppContent() {
         <Navbar />
         <main className="dedicated-page-main" key={route}>
           <DestinationPieceAnchor route={route} />
-          <a
-            className="dedicated-back"
-            href="#/"
-            onClick={(event) => {
-              event.preventDefault();
-              if (transition.active) return;
-              const image = pageRef.current?.querySelector('.dedicated-piece-anchor img');
-              startReverse(route, image);
-            }}
-          >
-            <span aria-hidden="true">←</span> Back to puzzle
-          </a>
           <RouteComponent />
         </main>
       </div>
