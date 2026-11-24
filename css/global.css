@@ -114,3 +114,118 @@ h2, blockquote {
 		padding-bottom: 75px;
 	}
 }
+
+.dedicated-page {
+	min-height: 100vh;
+	background: var(--cream);
+	overflow-x: hidden;
+}
+
+.dedicated-page-main {
+	position: relative;
+}
+
+.dedicated-back {
+	position: fixed;
+	right: clamp(16px, 3vw, 40px);
+	bottom: clamp(16px, 3vw, 32px);
+	z-index: 30;
+	display: inline-flex;
+	align-items: center;
+	gap: 8px;
+	padding: 12px 15px;
+	border: 1px solid rgba(20, 43, 58, .22);
+	background: var(--cream);
+	color: var(--navy);
+	box-shadow: 0 8px 24px rgba(20, 43, 58, .14);
+	font-family: Arial, sans-serif;
+	font-size: 10px;
+	font-weight: bold;
+	letter-spacing: .1em;
+	text-transform: uppercase;
+}
+
+.dedicated-page--reflection .dedicated-page-main {
+	min-height: calc(100vh - 88px);
+}
+
+.dedicated-page--reflection .reflection {
+	min-height: calc(100vh - 88px);
+}
+
+.dedicated-page--contact .dedicated-page-main {
+	min-height: calc(100vh - 88px);
+}
+
+.dedicated-page--contact .site-footer {
+	min-height: calc(100vh - 88px);
+}
+
+.puzzle-transition-layer {
+	position: fixed;
+	inset: 0;
+	z-index: 999;
+	pointer-events: none;
+	perspective: 900px;
+	overflow: visible;
+}
+
+.dedicated-piece-anchor {
+	position: absolute;
+	top: clamp(112px, 14vh, 150px);
+	right: clamp(24px, 5vw, 72px);
+	z-index: 5;
+	width: clamp(110px, 13vw, 180px);
+	aspect-ratio: 600 / 900;
+	pointer-events: none;
+	will-change: transform, opacity;
+}
+
+.dedicated-piece-anchor img {
+	display: block;
+	width: 100%;
+	height: auto;
+}
+
+.dedicated-piece-anchor span {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	min-width: 88px;
+	padding: 5px;
+	background: var(--navy);
+	color: var(--beige);
+	font-family: Arial, sans-serif;
+	font-size: 10px;
+	font-weight: bold;
+	letter-spacing: .1em;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.dedicated-page--lessons .lessons,
+.dedicated-page--projects .projects,
+.dedicated-page--hobbies .hobbies,
+.dedicated-page--skills .skills,
+.dedicated-page--reflection .reflection {
+	padding-right: clamp(145px, 18vw, 220px);
+}
+
+@media (max-width: 720px) {
+	.dedicated-piece-anchor {
+		position: relative;
+		top: auto;
+		right: auto;
+		width: 110px;
+		margin: 18px 22px -54px auto;
+	}
+
+	.dedicated-page--lessons .lessons,
+	.dedicated-page--projects .projects,
+	.dedicated-page--hobbies .hobbies,
+	.dedicated-page--skills .skills,
+	.dedicated-page--reflection .reflection {
+		padding-right: 22px;
+	}
+}

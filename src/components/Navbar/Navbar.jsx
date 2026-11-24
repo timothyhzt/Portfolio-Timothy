@@ -1,20 +1,50 @@
 import logo from '../../assets/TimLogo.png';
+import { usePuzzleTransition } from '../Transition/PuzzleTransitionProvider';
 
 function Navbar() {
+  const { route, navigate } = usePuzzleTransition();
+  const homeHref = route ? '#/' : '#top';
+  const puzzleLinks = [
+    ['About', '#about', 'about'],
+    ['Lessons', '#/lessons', 'lessons'],
+    ['Projects', '#/projects', 'projects'],
+    ['Hobbies', '#/hobbies', 'hobbies'],
+    ['Skills', '#/skills', 'skills']
+  ];
+
   return (
     <nav className="site-navbar" aria-label="Main navigation">
-      <a className="navbar-logo" href="#top" aria-label="Timothy Tu home">
+      <a className="navbar-logo" href={homeHref} onClick={(event) => { event.preventDefault(); navigate(); }} aria-label="Timothy Tu home">
         <img src={logo} alt="" />
         <span>Timothy Tu</span>
       </a>
       <div className="site-nav">
-        <a href="#about">About</a>
-        <a href="#lessons">Lessons</a>
-        <a href="#projects">Projects</a>
-        <a href="#hobbies">Hobbies</a>
-        <a href="#skills">Skills</a>
+        {puzzleLinks.map(([label, href, target]) => (
+          <a
+            href={href}
+            key={label}
+            onClick={(event) => {
+              event.preventDefault();
+              if (target === 'about') {
+                if (route) {
+                  navigate();
+                } else {
+                  document.querySelector('#about')?.scrollIntoView({ behavior: 'smooth' });
+                }
+                return;
+              }
+              navigate(target);
+            }}
+          >
+            {label}
+          </a>
+        ))}
       </div>
-      <a className="navbar-link" href="#footer">
+      <a className="navbar-link" href={route ? '#/contact' : '#footer'} onClick={(event) => {
+        event.preventDefault();
+        if (route) navigate('contact');
+        else document.querySelector('#footer')?.scrollIntoView({ behavior: 'smooth' });
+      }}>
         Contact <span aria-hidden="true">↗</span>
       </a>
     </nav>

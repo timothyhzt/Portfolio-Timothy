@@ -75,7 +75,7 @@ function Lessons() {
                   <div className="lightbox" aria-hidden="true">
                     <div className="lightbox-content">
                       <button className="lightbox-close" type="button" aria-label="Close image">×</button>
-                      <img src="" alt="Expanded Sunhacks photo" />
+                      <img alt="Expanded Sunhacks photo" />
                     </div>
                   </div>
                 </>

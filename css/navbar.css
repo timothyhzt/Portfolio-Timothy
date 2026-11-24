@@ -46,8 +46,16 @@
 	.site-navbar {
 		height: 74px;
 	}
+	.navbar-logo {
+		font-size: 16px;
+		gap: 7px;
+	}
+	.navbar-logo img {
+		height: 34px;
+	}
 	.site-nav {
-		gap: 14px;
+		gap: 8px;
+		font-size: 9px;
 		margin-left: 0;
 	}
 	.navbar-link {
